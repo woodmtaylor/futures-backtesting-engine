@@ -82,5 +82,7 @@ trading-data-analytics/
 ├── data/
 │   ├── ES_8tick_250D.csv                # Raw Sierra Chart export
 │   └── 8_tick_inv_and_ex.csv            # Processed signals + returns
+├── images/
+│   └── output_plot_example.png
 └── requirements.txt
 ```
