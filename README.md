@@ -14,8 +14,6 @@ Advanced market microstructure analysis system for E-mini S&P 500 futures, combi
   - [Statistical Analysis](#statistical-analysis)
 - [Technical Implementation](#-technical-implementation)
 - [Files Structure](#-files-structure)
-- [Dependencies](#-dependencies)
-- [Market Edge](#-market-edge)
 
 ---
 
@@ -52,7 +50,7 @@ This system processes **8-tick bar footprint data** to detect market reversal si
 | **Vol\*** | `Current Volume ÷ 50-bar Rolling Avg` | Volume multiple vs historical average |
 | **TD%** | `Close ÷ Low` (Buy) / `Close ÷ High` (Sell) | Entry timing relative to bar structure |
 
-#### 📊 Example: Trapped Delta Calculation
+#### Example: Trapped Delta Calculation
 ```
 Cumulative Delta: -200
 Minimum Delta: -250
@@ -74,7 +72,7 @@ Multi-session merged profiles creating significant support/resistance:
 • **Imbalance Moves**: Directional moves away from established value areas  
 • **Level Significance**: Stronger levels come from longer timeframe merges  
 
-#### 📈 Trade Scenarios
+#### Trade Scenarios
 
 | Scenario | Description | Risk/Reward |
 |----------|-------------|-------------|
@@ -86,7 +84,7 @@ Multi-session merged profiles creating significant support/resistance:
 
 **12-Tick Rule**: Signals only trigger when price is within 12 ticks of significant levels
 
-✅ **Benefits:**
+**Benefits:**
 - Prevents low-probability trades in "no-man's land"
 - Ensures confluence between microstructure signals and macro support/resistance
 - Level significance determined by merge duration and market structure
@@ -131,7 +129,7 @@ Multiple types   Strong overrides Weak   Buy/Sell × Inv/Exh
 
 ---
 
-## 🛠 Technical Implementation
+## Technical Implementation
 
 ### Processing Pipeline
 ```
@@ -148,7 +146,7 @@ Multiple types   Strong overrides Weak   Buy/Sell × Inv/Exh
 • **Memory Efficient**: Optimized handling of high-frequency datasets  
 • **Signal Validation**: Multi-layer filtering ensuring quality  
 
-### 📈 Performance Characteristics
+### Performance Characteristics
 | Metric | Value |
 |--------|-------|
 | **Data Coverage** | 250 trading days |
@@ -158,7 +156,7 @@ Multiple types   Strong overrides Weak   Buy/Sell × Inv/Exh
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 trading-data-analytics/
