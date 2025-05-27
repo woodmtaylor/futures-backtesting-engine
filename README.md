@@ -2,7 +2,7 @@
 
   # Trading Data Analytics
 
-  <img src="images/output_plot_example.png" alt="Forward Returns Plot" width="450"/>
+  <img src="images/output_plot_example.png" alt="Forward Returns Plot" width="500"/>
 
   Market microstructure analysis system for E-mini S&P 500 futures using footprint analysis, Auction Market Theory (AMT), and statistical validation to identify trading opportunities.
   
