@@ -1,6 +1,6 @@
 # Trading Data Analytics
 
-Advanced market microstructure analysis system for E-mini S&P 500 futures, combining footprint analysis, Auction Market Theory (AMT), and statistical validation to identify high-probability trading opportunities.
+Market microstructure analysis system for E-mini S&P 500 futures, combining footprint analysis, Auction Market Theory (AMT), and statistical validation to identify high-probability trading opportunities.
 
 - [Overview](#-overview)
 - [Market Microstructure Concepts](#-market-microstructure-concepts)
