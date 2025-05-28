@@ -45,10 +45,9 @@ Merges multi-session TPO profiles to create support/resistance levels:
 
 ### Input Processing (`process_footprint_data.py`)
 - **Source**: Sierra Chart 8-tick footprint exports (103 columns)
-- **Content**: OHLC, datetime, study data, signal classifications
+- **Content**: OHLC, datetime, study data, orderflow signal classifications
 - **Forward Returns**: 5, 10, 20, 30, 40, 50, 75, 100 bars
 - **Stop-Loss**: Entry bar Low/High ± 1 tick
-- **MFE Tracking**: Maximum Favorable Excursion
 
 ### Statistical Analysis (`footprint_signal_analysis.py`)
 - **Regression**: Interaction testing for signal combinations
