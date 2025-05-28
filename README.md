@@ -68,7 +68,7 @@ Delta     Exhaustion  12-tick Stop/MFE Interactions
 - **Processing**: Multi-core optimization
 - **Memory**: Optimized for high-frequency datasets
 
-## Directory Structure
+## Repo Structure
 
 ```
 futures-backtesting-engine/
