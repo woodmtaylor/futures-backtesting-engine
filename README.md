@@ -4,7 +4,7 @@
 
   <img src="images/output_plot_example.png" alt="Forward Returns Plot"/>
 
-  Market microstructure analysis system for E-mini S&P 500 futures using footprint analysis, Auction Market Theory (AMT), and statistical validation to identify trading opportunities.
+  Market microstructure analysis system for E-mini S&P 500 futures using footprint, Auction Market Theory (AMT), and statistical validation to identify trading opportunities.
   
 </div>
 
