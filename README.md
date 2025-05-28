@@ -10,7 +10,7 @@
 
 ## Overview
 
-Processes 8-tick bar footprint data to detect market reversal signals based on order flow imbalances and trapped trader scenarios. Analyzes "Inversion" and "Exhaustion" patterns occurring within 12 ticks of support/resistance levels derived from Time-Price Opportunity (TPO) profile analysis.
+Processes 8-tick bar footprint data to detect reversals based on significant orderflow signals. Analyzes "Inversion" and "Exhaustion" patterns occurring within 12 ticks of support/resistance levels derived from Time-Price Opportunity (TPO) profile analysis.
 
 ## Signal Detection
 
