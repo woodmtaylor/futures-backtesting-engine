@@ -15,16 +15,16 @@ Processes 8-tick bar footprint data to detect reversals based on significant ord
 ## Signal Detection
 
 ### Inversion Signals
-Detect trapped traders when footprint bars close opposite to their delta direction:
+Detects trapped traders when footprint bars close opposite to their delta direction:
 - **Standard**: Bar closes against delta % direction
 - **Strong**: Net delta closes within 75% of bar's high/low wick
 
 ### Exhaustion Signals
-Identify momentum fatigue through volume tapering:
+Identifies momentum fatigue through volume tapering:
 - **2x**: 50% volume reduction between consecutive price levels
 - **Accelerated**: 50% to 20% volume reduction
 
-### Key Metrics
+### Metrics
 
 | Metric | Formula | Purpose |
 |--------|---------|---------|
