@@ -52,7 +52,7 @@ Merges multi-session TPO profiles to create support/resistance levels:
 ### Statistical Analysis (`footprint_signal_analysis.py`)
 - **Regression**: Interaction testing for signal combinations
 - **Validation**: P-value < 0.05, minimum 30 interactions
-- **Performance**: Win criteria at 25+ ticks, PnL at $50/tick
+- **Performance**: Win criteria at 25+ ticks, PnL at $12.50/tick
 
 ## Technical Implementation
 
