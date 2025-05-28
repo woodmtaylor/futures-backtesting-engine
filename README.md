@@ -44,17 +44,15 @@ Merges multi-session TPO profiles to create support/resistance levels:
 ## Data Pipeline
 
 ### Input Processing (`process_footprint_data.py`)
-- **Source**: Sierra Chart 8-tick footprint exports (103 columns)
-- **Content**: OHLC, datetime, study data, orderflow signal classifications
-- **Forward Returns**: 5, 10, 20, 30, 40, 50, 75, 100 bars
-- **Stop-Loss**: Entry bar Low/High ± 1 tick
+- **Source**: Sierra Chart CSV exports
+- **Content**: OHLC, datetime, footprint bar data, study data, orderflow signals
+- **Stop-Loss**: Entry bar Low/High ± 1 tick, depending on long/short
 
 ### Statistical Analysis (`footprint_signal_analysis.py`)
 - **Regression**: Interaction testing for signal combinations
 - **Validation**: P-value < 0.05, minimum 30 interactions
+- **Forward Returns**: Bins - 5, 10, 20, 30, 40, 50, 75, 100 bars
 - **Performance**: Win criteria at 25+ ticks, PnL at $12.50/tick
-
-## Technical Implementation
 
 ### Processing Pipeline
 ```
