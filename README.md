@@ -1,10 +1,10 @@
 <div>
 
-  # Trading Data Analytics
+  # E-mini S&P500 Futures Backtesting Engine
 
   <img src="images/output_plot_example.png" alt="Forward Returns Plot"/>
 
-  Market microstructure analysis system for E-mini S&P 500 futures using footprint, Auction Market Theory (AMT), and statistical validation to identify trading opportunities.
+  Market microstructure analysis system for ES using footprint, Auction Market Theory (AMT), and statistical validation to identify trading opportunities.
   
 </div>
 
@@ -71,7 +71,7 @@ Delta     Exhaustion  12-tick Stop/MFE Interactions
 ## Directory Structure
 
 ```
-trading-data-analytics/
+futures-backtesting-engine/
 ├── README.md
 ├── analysis/
 │   ├── process_footprint_data.py        # Data processing & signals
